@@ -174,9 +174,9 @@ export default function BlogDetailSec({ posts, BlogData }) {
                 <div className="author_name_photo_flex">
                   <div className="author_image">
                     {posts?.Author?.Picture?.data[0]?.attributes?.url &&
-                      STARPI_URI && (
+                      STRAPI_BASE_URL && (
                         <img
-                          src={`${STARPI_URI}${posts?.Author?.Picture?.data[0]?.attributes?.url}`}
+                        src={`${STRAPI_BASE_URL}${posts?.Author?.Picture?.data[0]?.attributes?.url}`}
                           alt="Author"
                         />
                       )}
@@ -240,9 +240,9 @@ export default function BlogDetailSec({ posts, BlogData }) {
               <div className="table_content">
                 {/* <div className="table_content_1"> ... </div> */}
                 <div className="table_content_2">
-                  {posts?.Card_Poster?.data?.attributes?.url && STARPI_URI && (
+                  {posts?.Card_Poster?.data?.attributes?.url && STRAPI_BASE_URL && (
                     <img
-                      src={`${STARPI_URI}${posts?.Card_Poster?.data?.attributes?.url}`}
+                      src={`${STRAPI_BASE_URL}${posts?.Card_Poster?.data?.attributes?.url}`}
                       alt="Blog_post"
                     />
                   )}
