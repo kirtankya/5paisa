@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /share-content 
+
+# Host
+Host: https://assignmentgpt.ai
+
+# Sitemaps
+Sitemap: https://assignmentgpt.ai/sitemap.xml

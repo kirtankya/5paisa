@@ -1,0 +1,24 @@
+:root {
+  scroll-behavior: smooth;
+  --body: #1c1d31;
+  --white: rgb(255, 255, 255);
+  --black: rgb(0, 0, 0);
+  --primary_orchid: #e669fb;
+  --primary_font_color: #a8b3cf;
+  --primary_font_color_2: #a9abb3;
+  --medium_orchid: #eb69dc;
+  --grad1: linear-gradient(207.41deg, #583fbb -4.84%, #c36bd6 103.51%);
+  --grad1hover: linear-gradient(207.41deg, #c36bd6 -4.84%, #583fbb 103.51%);
+  --grad2-hover: linear-gradient(99.61deg, #6f7e90 -10.33%, #1c1d31 120.46%);
+  --grad3-hover: linear-gradient(99.61deg, #1c1d31 -10.33%, #6f7e90 120.46%);
+  --grad4: linear-gradient(207.41deg, #583fbb -4.84%, #c36bd6 103.51%);
+  --grad4-hover: linear-gradient(
+    198.79deg,
+    rgba(88, 63, 187, 0.1) -17%,
+    rgba(195, 107, 214, 0.1) 102.05%
+  );
+  --primary-color: #87ceeb;
+  --dark-color: #0e0f1d;
+  --dark-hover-color:#1c1d31;
+  --transparent-color: transparent;
+}

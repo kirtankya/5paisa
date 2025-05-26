@@ -1,0 +1,40 @@
+{
+  "name": "5 Paisa",
+  "short_name": "AssignmentGPT AI",
+  "description": "AssignmentGPT AI is outstanding AI platform that give many option like assignments by ai,autowrite,homework ai,ai homework helper that student can use.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "type": "image/x-icon",
+      "sizes": "48x48"
+    },
+    {
+      "src": "favicon.png",
+      "type": "image/png",
+      "sizes": "387x322"
+    },
+    {
+      "src": "apple-touch-icon",
+      "type": "image/png",
+      "sizes": "180x180"
+    },
+    {
+      "src": "android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "android-chrome-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "id": "/?source=pwa",
+  "start_url": "/?source=pwa",
+  "display_override": ["window-control-overlay", "minimal-ui"],
+  "display": "standalone",
+  "theme_color": "#c36bd6",
+  "background_color": "#f0e9f4",
+  "orientation": "any",
+  "scope": "/"
+}
